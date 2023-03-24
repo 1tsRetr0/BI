@@ -1,13 +1,13 @@
 import pandas as pd
 
 df = pd.read_csv(
-    "C:/Users/Cleverton/Documents/A/Trabalhos/MICRODADOS.csv",
+    "path/to/the/file/MICRODADOS.csv",
     sep=';',
     encoding="latin-1"
 )
 
 df.to_csv(
-    "C:/Users/Cleverton/Documents/A/Trabalhos/MICRODADOS_UTF8.csv",
+    "path/to/the/file/MICRODADOS_UTF8.csv",
     sep=';',
     encoding="utf-8"
 )
