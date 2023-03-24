@@ -31,4 +31,4 @@ cursor = conexao.cursor()
 #            values)
 
 # conexao.commit()
-conexao.close()
+# conexao.close()
