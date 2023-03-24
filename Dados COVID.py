@@ -1,7 +1,7 @@
 import pandas as pd
 
 tabela1 = pd.read_csv(
-    'C:/Users/Cleverton/Documents/A/Trabalhos/MICRODADOS.csv',
+    'path/to/the/file/MICRODADOS.csv',
     sep=';',
     encoding='latin_1'
 )
